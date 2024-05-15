@@ -1,0 +1,37 @@
+html, body {
+    background-color: #DF98BF;
+    font-family: monospace;
+    text-align: center;
+    /* the background image (if there was one)*/
+    /* would take up a 100% of the current screen height */
+    height: 100vh;
+}
+
+#container {
+    align-content: center;
+    /* it stays centered */
+    margin: auto;
+    /* this container will take up no more than 50% */
+    /* of the current window width */
+    max-width: 50%; 
+    background-color: #DB6246;
+    padding: 20px;
+    border-radius: 2px;
+}
+
+.button {
+    background-color: #DF98BF;
+    border-color: #D8528E;
+    border-radius: 2px;
+}
+
+.button:hover {
+    background-color: #D8528E;
+    border-color: #DF98BF;
+        border-color: #D8528E;
+
+}
+
+.button:focus {
+    outline-style: none;
+}
